@@ -8,8 +8,8 @@ import comments from './data/comments';
 import posts from './data/posts';
 
 const defaultState = {
-    posts: posts,
-    comments: comments
+    posts,
+    comments
 };
 
 const store = createStore(rootReducer, defaultState);
